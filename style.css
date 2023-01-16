@@ -1,0 +1,47 @@
+body {
+  background-color: skyblue;
+    text-align: center; 
+    font-family: Cochin, serif;
+  }
+  
+  h1,* {
+    color: green;
+   }
+
+main {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+  letter-spacing: 0.25em;
+  word-spacing: 0.5em;
+}
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+nav a {
+text-decoration: none;
+margin: 20px;
+}
+a:hover {
+  background-color: lightcyan;
+  color: paleturquoise; 
+}
+
+a:active {
+  background-color: lightgreen;
+  color: lightgoldenrodyellow;
+}
+
+a[target="_blank"] {
+  color: blueviolet;
+}
+
+ol {
+  list-style-position: inside;
+}
